@@ -10,11 +10,16 @@
 
 .products__header {
   margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  justify-content: space-between;
 }
 
 .products__title {
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   color: var(--color-heading);
 }
 
