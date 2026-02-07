@@ -156,9 +156,6 @@ onUnmounted(() => {
       <h1 class="products__title">รายการสินค้า</h1>
       <p v-if="!loading && !error" class="products__count products__count--header">
         {{ filteredProducts.length }} สินค้า
-        <span v-if="hasMore && filteredProducts.length > 0">
-          (แสดง {{ visibleProducts.length }}/{{ filteredProducts.length }})
-        </span>
       </p>
     </header>
 
